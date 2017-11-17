@@ -38,7 +38,7 @@
 
 
     <build>
-        <finalName>mlhdata</finalName>
+        <finalName>myweb</finalName>
         <filters>
             <filter>../config.properties</filter>
         </filters>
