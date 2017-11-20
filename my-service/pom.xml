@@ -28,5 +28,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+      <dependency>
+          <groupId>io.github.haoding0713</groupId>
+          <artifactId>my-data</artifactId>
+      </dependency>
+
   </dependencies>
 </project>
