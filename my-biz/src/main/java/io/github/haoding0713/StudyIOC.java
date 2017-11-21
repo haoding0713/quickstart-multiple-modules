@@ -17,5 +17,13 @@ public class StudyIOC {
         final MessageService ms = (MessageService) context.getBean("messageService");
 
         System.out.println(ms.greeting("Spring Master"));
+
+        final LazyObject lazyObject = (LazyObject) context.getBean("lazyObject");
+        System.out.println(lazyObject.getName());
+        try {
+            lazyObject.destroy();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -2,10 +2,15 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName">
 
     <import resource="classpath*:ioc/ioc-*.xml"/>
     <import resource="classpath*:dao/dao-*.xml"/>
     <import resource="classpath*:aop/aop-*.xml"/>
+
+    <bean id="lazyObject" class="io.github.haoding0713.LazyObject" lazy-init="true" init-method="init" destroy-method="destroy">
+        <constructor-arg value="I'm a lazy Object !!! DoDoDo !!!" />
+    </bean>
 
 </beans>
