@@ -8,8 +8,9 @@
     <import resource="classpath*:ioc/ioc-*.xml"/>
     <import resource="classpath*:dao/dao-*.xml"/>
     <import resource="classpath*:aop/aop-*.xml"/>
+    <import resource="classpath*:service/service-*.xml"/>
 
-    <bean id="lazyObject" class="io.github.haoding0713.LazyObject" lazy-init="true" init-method="init" destroy-method="destroy">
+    <bean id="lazyObject" class="io.github.haoding0713.LazyObject" lazy-init="true" init-method="init" destroy-method="cleanUp">
         <constructor-arg value="I'm a lazy Object !!! DoDoDo !!!" />
     </bean>
 

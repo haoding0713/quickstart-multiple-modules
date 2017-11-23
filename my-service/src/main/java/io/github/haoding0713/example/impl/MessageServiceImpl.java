@@ -3,7 +3,7 @@ package io.github.haoding0713.example.impl;
 import io.github.haoding0713.UserDAO;
 import io.github.haoding0713.example.MessageService;
 
-public class MessageServiceImpl implements MessageService {
+public class MessageServiceImpl extends MessageService {
 
     private String prefix;
 
