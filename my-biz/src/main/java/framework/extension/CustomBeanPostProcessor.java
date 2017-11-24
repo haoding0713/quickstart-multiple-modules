@@ -1,4 +1,4 @@
-package beans;
+package framework.extension;
 
 import io.github.haoding0713.service.base.AbstractService;
 import org.springframework.beans.BeansException;

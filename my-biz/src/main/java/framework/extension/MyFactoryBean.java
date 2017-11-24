@@ -1,4 +1,4 @@
-package beans;
+package framework.extension;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.FactoryBean;
