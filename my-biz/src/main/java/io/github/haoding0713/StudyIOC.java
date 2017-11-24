@@ -1,7 +1,6 @@
 package io.github.haoding0713;
 
-import io.github.haoding0713.example.MessageService;
-import org.springframework.context.ApplicationContext;
+import io.github.haoding0713.service.MessageService;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

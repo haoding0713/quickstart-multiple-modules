@@ -1,6 +1,6 @@
 package beans;
 
-import io.github.haoding0713.example.AbstractService;
+import io.github.haoding0713.service.base.AbstractService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.Ordered;

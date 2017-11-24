@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="messageService" class="io.github.haoding0713.example.impl.MessageServiceImpl">
+    <bean id="messageService" class="io.github.haoding0713.service.impl.MessageServiceImpl">
         <!-- collaborators and configuration for this bean go here -->
         <property name="prefix" value="Hello "/>
 

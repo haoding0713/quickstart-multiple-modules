@@ -1,8 +1,9 @@
-package io.github.haoding0713.example;
+package io.github.haoding0713.service;
 
+import io.github.haoding0713.service.base.AbstractService;
 import org.springframework.util.StringUtils;
 
-public abstract class MessageService implements AbstractService{
+public abstract class MessageService implements AbstractService {
 
     public abstract String greeting(String name);
 

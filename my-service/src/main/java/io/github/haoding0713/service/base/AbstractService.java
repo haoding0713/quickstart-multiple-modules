@@ -1,4 +1,4 @@
-package io.github.haoding0713.example;
+package io.github.haoding0713.service.base;
 
 public interface AbstractService {
 

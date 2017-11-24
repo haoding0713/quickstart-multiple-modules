@@ -1,7 +1,7 @@
-package io.github.haoding0713.example.impl;
+package io.github.haoding0713.service.impl;
 
 import io.github.haoding0713.UserDAO;
-import io.github.haoding0713.example.MessageService;
+import io.github.haoding0713.service.MessageService;
 
 public class MessageServiceImpl extends MessageService {
 
